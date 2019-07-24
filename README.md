@@ -15,7 +15,7 @@
           *                    skignatov@gmail.com                    *
           *                    ignatov@ichem.unn.ru                   *
           *                  http://www.qchem.unn.ru                  *
-          *             Nizhny Novgorod, Russia, 2016-2017            *
+          *             Nizhny Novgorod, Russia, 2016-2019            *
           *                                                           *
           *                      Serial version                       *
           *                                                           *
