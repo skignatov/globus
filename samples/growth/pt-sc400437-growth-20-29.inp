@@ -1,0 +1,17 @@
+#  Growth=(abc,Nbeg=20,Nend=29,MaxCycIncr=10.,MaxCycExp=1.) 
+# ABCoptions=(MaxCyc=100,Bees=640,ScoutLimit=5,Amplitude=6.,LMfreq,MaxLM=10000,Cluster=random,Ampl2=5.) 
+!# SEED=(1728928157,1893046742)
+!# ABCinit=(5)
+
+
+*SC  78   78  
+      13.750550       5.127537       3.768255       2.634896      39.315674
+         1              1            1              1              1
+       0.1            0.1          0.1            0.1            0.1
+        20.            20.          10.            10.           100.
+
+
+@ptn FOpt  Freq
+Pt1   0.  0.  0.
+
+
