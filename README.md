@@ -4,7 +4,7 @@
           *                                                           *
           * Global and Local Optimization of Big Unordered Structures *
           *                                                           *
-          *                   (build number  5487)                    *
+          *                   (build number  5512)                    *
           *                                                           *
           *     Program for cluster structure optimization and        *
           *                potential parameters search                *
@@ -24,9 +24,9 @@
 
 globus_r5487-lin64.x    -- most recent Linux64/ifort/serial version
 
-globus-r5487-win32.exe  -- most recent Win32/ifort/serial version
+globus-r5512-win32.exe  -- most recent Win32/ifort/serial version
 
-globus_r5475-win32.exe  -- previous Win32/ifort/serial version
+globus_r5487-win32.exe  -- previous Win32/ifort/serial version
 
 globus-r1863-win32.exe  -- version 1.2 (build 1863) -- release used for global optimization described in some samples
 
