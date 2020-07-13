@@ -1,0 +1,62 @@
+          *************************************************************
+          *                                                           *
+          *                    G L O B U S  v.1.6                     *
+          *                                                           *
+          * Global and Local Optimization of Big Unordered Structures *
+          *                                                           *
+          *                   (build number  5513)                    *
+          *                                                           *
+          *     Program for cluster structure optimization and        *
+          *                potential parameters search                *
+          *                                                           *
+          *         Originally written by Stanislav K. Ignatov        *
+          *              Theoretical Chemistry Group                  *
+          *    N.I.Lobachevsky State University of Nizhny Novgorod    *
+          *                    ignatov@ichem.unn.ru                   *
+          *                  http://www.qchem.unn.ru                  *
+          *             Nizhny Novgorod, Russia, 2016-2017            *
+          *                                                           *
+          *                      Serial version                       *
+          *                                                           *
+          *************************************************************
+
+
+
+ Date:19/ 3/2020                                              Time:20:20:10.17
+
+
+
+ Structure    1.  Structure processing commands:
+ MG13 FOPT FREQ
+
+
+ Potential type:   GP    Potential parameters:     5
+ Parameters under optimization (   0 ):
+ X: 
+
+
+
+
+ Atom pairs and angles of   1 potential(s) within rCut:
+ Npairs  =          0
+ Nangles =          0
+ Structure diameter:     0.00000 A
+
+ Optimized Energy =       0.0000000    
+ Optimized Gnorm  =       0.0000000    
+ Molecular charge is set to:  0.000000 
+ [startcartcoord] Starting coordinates:                                        Fragment      Optimizable         Charges (from input file)
+Mg1           2.49579852000000     -1.59827860000000      0.74155663000000         0         1    1    1         0.000000
+Mg2           2.68287402000000      1.42247168000000     -0.33494134000000         0         1    1    1         0.000000
+Mg3          -0.05140230000000     -2.98744647000000     -0.63715255000000         0         1    1    1         0.000000
+Mg4          -0.25128267000000     -1.90022402000000      2.37896179000000         0         1    1    1         0.000000
+Mg5           0.00000010000000     -0.00000093000000      0.00000314000000         0         1    1    1         0.000000
+Mg6          -2.49579637000000      1.59827471000000     -0.74156117000000         0         1    1    1         0.000000
+Mg7           0.25131849000000      1.90024127000000     -2.37893842000000         0         1    1    1         0.000000
+Mg8          -1.43856468000000     -0.82522479000000     -2.56573598000000         0         1    1    1         0.000000
+Mg9           1.76202441000000     -0.93390324000000     -2.31442035000000         0         1    1    1         0.000000
+Mg10          0.05137264000000      2.98743928000000      0.63716561000000         0         1    1    1         0.000000
+Mg11          1.43856260000000      0.82527554000000      2.56572083000000         0         1    1    1         0.000000
+Mg12         -1.76203719000000      0.93386809000000      2.31442490000000         0         1    1    1         0.000000
+Mg13         -2.68286756000000     -1.42249252000000      0.33491691000000         0         1    1    1         0.000000
+ 

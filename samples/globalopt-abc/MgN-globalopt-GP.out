@@ -1,0 +1,71 @@
+          *************************************************************
+          *                                                           *
+          *                    G L O B U S  v.1.6                     *
+          *                                                           *
+          * Global and Local Optimization of Big Unordered Structures *
+          *                                                           *
+          *                   (build number  5513)                    *
+          *                                                           *
+          *     Program for cluster structure optimization and        *
+          *                potential parameters search                *
+          *                                                           *
+          *         Originally written by Stanislav K. Ignatov        *
+          *              Theoretical Chemistry Group                  *
+          *    N.I.Lobachevsky State University of Nizhny Novgorod    *
+          *                    ignatov@ichem.unn.ru                   *
+          *                  http://www.qchem.unn.ru                  *
+          *             Nizhny Novgorod, Russia, 2016-2017            *
+          *                                                           *
+          *                      Serial version                       *
+          *                                                           *
+          *************************************************************
+
+
+
+ Date:19/ 3/2020                                              Time:20:20:10.17
+
+
+ Unique 20-digit run ID:200319-202010-317126
+
+ Input file                :MgN-globalopt-GP.inp
+ Structures to be processed:    3  (MaxStr =  100)
+ Atoms in largest structure:   19  (MaxAt  = 1500)
+
+ Keyword found:  GEOOPT=ABC
+
+ Global optimization of geometry by Artificial Bee Colony (ABC-GO) algorithm
+
+ Keyword found:  ABCOPTIONS=(MAXCYC=50,BEES=100,SCOUTLIMIT=5,AMPLITUDE=6.,MAXLM=10,CLUSTER=RANDOM,AMPL2=5.)
+ Keyword found:  MAXCYC=50
+ Keyword found:  BEES=100
+ Keyword found:  SCOUTLIMIT=5
+ Keyword found:  AMPLITUDE=6.
+ Keyword found:  MAXLM=10
+ Keyword found:  CLUSTER=RANDOM
+ Keyword found:  AMPL2=5.
+
+ Force fields/potentials applied:
+
+ Gupta potential (parameters: A(energy), z(energy), d(distance), p, q)
+ GP       12   12    0    0    5    15.990    16.990     4.797     5.797
+ X  :      1.24963     5.01785     2.69102    16.80738     0.43172
+ Opt:            0           0           0           0           0
+ Xub:      0.00000     0.00000     0.00000     0.00000     0.00000
+ Xlb:      0.00000     0.00000     0.00000     0.00000     0.00000
+
+ Structures to be optimized:     3
+
+
+ Structure     Atoms OptCyc        Energy    Gnorm   Wg*GeoDiscr    Wg     We*Ediscr    We     Wv*Vdiscr    Wv     Wf*Fdiscr    Wf   Wt*StrDiscr    Wt   NimFreq istr  FileName
+  1 MG13          13     4      -177.4095   0.0000         0.000  1.00         0.000  1.00         0.000  1.00         0.000  1.00         0.000  1.00   0 0 0      1  MG13
+  2 MG14          14     4      -194.5367   0.0000         0.000  1.00         0.000  1.00         0.000  1.00         0.000  1.00         0.000  1.00   0 0 0      2  MG14
+  3 MG19          19     4      -293.2028   0.0000         0.000  1.00         0.000  1.00         0.000  1.00         0.000  1.00         0.000  1.00   0 0 0      3  MG19
+
+ Total discrepancy for     3 structures:       0.000000
+
+
+ Calculation time:    193.84 sec   =     3.23 min   =   0.05 hrs  =  0.00 days
+
+
+ Date:19/ 3/2020                                              Time:20:23:24. 1
+

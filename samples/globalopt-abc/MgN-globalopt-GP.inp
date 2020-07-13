@@ -1,0 +1,86 @@
+! This is the command to make GLOBAL optimization of geometry for all the clusters below using ARTIFICIAL BEE COLONY algorithm
+
+# GeoOpt=abc 
+
+
+! Here are the ABC program options:
+! Max number of cycles, Number of "bees", number of "scouts", amplitude of "flying", MaxLM - maximum number of LM to be saved, etc. - see manual
+
+# ABCoptions=(MaxCyc=50,Bees=100,ScoutLimit=5,Amplitude=6.,MaxLM=10,Cluster=random,Ampl2=5.) 
+
+
+! This is the random number generator seeds (if uncommented, the program will always use the same random sequence in all runs - useful for debug)
+!# SEED=(1728928157,1893046742)
+
+
+! This is restart option (in parentheses - file names to read data from):
+!# ABCinit=(5)
+
+
+! Gupta potential (as before potential descriptins are marked with * character):
+*GP       12   12  	
+      1.249626   5.017854   2.691017   16.807377  0.431717  ! 5 potential parameters
+
+
+! Starting structures for optimization -- each structure starts from @ command string. Commands FOpt Freq - as in Gaussian
+! There can be a lot of structures - up to 1500 and more (depends on compilation-time parameters)
+! IRC means: if some freqs are imaginary, try to eliminate them using IRC algorithm (see my book on QC)
+
+@Mg13 FOpt Freq
+Mg     2.49579852     -1.59827860      0.74155663
+Mg     2.68287402      1.42247168     -0.33494134
+Mg    -0.05140230     -2.98744647     -0.63715255
+Mg    -0.25128267     -1.90022402      2.37896179
+Mg     0.00000010     -0.00000093      0.00000314
+Mg    -2.49579637      1.59827471     -0.74156117
+Mg     0.25131849      1.90024127     -2.37893842
+Mg    -1.43856468     -0.82522479     -2.56573598
+Mg     1.76202441     -0.93390324     -2.31442035
+Mg     0.05137264      2.98743928      0.63716561
+Mg     1.43856260      0.82527554      2.56572083
+Mg    -1.76203719      0.93386809      2.31442490
+Mg    -2.68286756     -1.42249252      0.33491691
+
+
+@Mg14 FOpt Freq IRC
+Mg1      0.347548   -3.224401   -1.209319
+Mg2      1.138109   -1.554990    1.463845
+Mg3      0.191291    0.001161   -0.909267
+Mg4      1.135809    1.553873    1.466183
+Mg5      3.205146   -2.937962   -0.476127
+Mg6     -1.794871    2.371942    0.877186
+Mg7     -2.208229    1.529687   -1.902728
+Mg8     -1.459367   -0.003469    2.726173
+Mg9     -2.205677   -1.529573   -1.904269
+Mg10    -1.792838   -2.377128    0.874941
+Mg11     3.503021    0.002590    0.262866
+Mg12    -3.600806   -0.002889    0.411671
+Mg13     3.199250    2.942585   -0.474347
+Mg14     0.341615    3.228575   -1.206809
+
+
+@Mg19 FOpt Freq
+Mg    -0.15627121     -1.83628951      4.89628949
+Mg    -1.68505870     -2.97507649     -0.18250497
+Mg     3.18856052     -0.47323961     -0.18285445
+Mg    -0.02613916      1.09033079      3.87582381
+Mg    -3.20707265     -0.22789264     -0.29506417
+Mg    -1.55056369      1.88056386     -1.92697304
+Mg    -1.73758396     -1.03566509      2.35843761
+Mg     0.11168717      0.90600546     -4.38571253
+Mg    -1.55114701      1.99093933      1.28716741
+Mg     1.45752742     -3.09564264     -0.12746344
+Mg    -0.18664895     -3.74573733      2.44997857
+Mg     1.75655723      1.75373184     -1.86894423
+Mg     1.65301319      1.86804887      1.34336078
+Mg     0.21026760      3.87972500     -3.50335716
+Mg     0.16059881      4.00280319     -0.40403149
+Mg     1.57176203     -1.31598391     -2.74254957
+Mg    -0.00815596     -0.30858591     -0.21035517
+Mg     1.56951263     -1.16253894      2.41641285
+Mg    -1.57084530     -1.19549625     -2.79766029
+
+
+
+
+
